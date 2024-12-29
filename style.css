@@ -71,3 +71,44 @@
   font-size: 38px;
   color: #fff;
 }
+#pos_item_td tbody tr:nth-child(odd) {
+  background: #ffe3ea !important;
+}
+p.item_total{
+  font-size: 28px;
+  padding-left: 10px;
+  padding-right: 14px;
+}
+span.item_total--value{
+  float: right;
+  font-weight: bold;
+  color: #575052;
+  font-size: 34px;
+}
+span.item_total--label{
+  font-size: 21px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.checkoutBtnConteiner{
+  margin-top: 200px;
+  padding: 20px;
+}
+.checkoutBtn{
+  font-size: 45px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border: 2px solid #ff5c85;
+  border-radius: 5px;
+  color: #ff5c85;
+
+}
+.checkoutBtn:hover{
+  background: #ff5c85;
+  color: #fff;
+  transition: 0.3s;
+}
+.item_total{
+  margin-top: 90px;
+}

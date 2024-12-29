@@ -128,26 +128,48 @@
             <p class="logo">IMS</p>
             <p class="timeAndDate">MAy 9,2024 11:45pm</p>
           </div>
-          <div class="pos_item">
-            <table>
-              <thead>
-                <th>
-                  <td>#</td>
-                  <td>Product</td>
-                  <td>Price</td>
-                  <td>Qty</td>
-                  <td>Amount</td>
-                </th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="pos_item_cotainer">
+            <div class="pos_item">
+              <table class="table" id="pos_item_td">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Amount</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Milo</td>
+                    <td>$30.45</td>
+                    <td>5</td>
+                    <td>$150.00</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Milo</td>
+                    <td>$30.45</td>
+                    <td>5</td>
+                    <td>$150.00</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="item_total_container">
+              <p class="item_total">
+                <span class="item_total--label">TOTAL</span>
+                <span class="item_total--value">$ 1,235.00</span>
+              </p>
+            </div>
+          </div>
+          <div class="checkoutBtnConteiner">
+            <a href="" class="checkoutBtn">CHECKOUT</a>
           </div>
         </div>
       </div>
@@ -158,5 +180,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
